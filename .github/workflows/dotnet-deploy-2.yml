@@ -2,7 +2,7 @@ name: .NET CI 2
 
 env:
   registryName: 6lhzjhhbbnmyqmpnpreg.azurecr.io
-  repositoryName: andrehe001/DevOps-Training
+  repositoryName: andrehe001/devops-training
   dockerFolderPath: ./Application/src/RazorPagesTestSample
   tag: ${{github.run_number}}
   
